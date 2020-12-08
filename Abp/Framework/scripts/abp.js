@@ -52,7 +52,7 @@
           return null;
         }
 
-        return parseInt(value);
+        return value;
       }
 
       /* SESSION */

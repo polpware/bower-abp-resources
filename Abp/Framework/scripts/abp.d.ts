@@ -22,9 +22,9 @@
 
         let tenantIdCookieName: string;
 
-        function setTenantIdCookie(tenantId?: number): void;
+        function setTenantIdCookie(tenantId?: string): void;
 
-        function getTenantIdCookie(): number;
+        function getTenantIdCookie(): string;
 
     }
 
@@ -32,7 +32,7 @@
 
         readonly userId?: number;
 
-        readonly tenantId?: number;
+        readonly tenantId?: string;
 
         readonly impersonatorUserId?: number;
 
